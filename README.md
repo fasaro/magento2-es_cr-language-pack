@@ -26,8 +26,8 @@ Instalar el paquete de idioma español a través del compositor (recomendable)
 
 ```
 php bin/magento maintenance:enable
-composer require fasaro/magento2-es_mx-language-pack dev-master
-php bin/magento setup:static-content:deploy es_MX
+composer require fasaro/magento2-es_cr-language-pack dev-master
+php bin/magento setup:static-content:deploy es_CR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -40,7 +40,7 @@ php bin/magento maintenance:disable
 ```
 php bin/magento maintenance:enable
 composer update fasaro/magento2-es_mx-language-pack dev-master
-php bin/magento setup:static-content:deploy es_MX
+php bin/magento setup:static-content:deploy es_CR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -50,7 +50,7 @@ php bin/magento maintenance:disable
 **Como activar el paquete en Español**
 
 Como activar el paquete de idioma español para su tienda Magento 2. Desde el panel de administración de Magento 2 
-  →   Stores > Configuration > General > Locale Options > Locale > Español (Mexico)
+  →   Stores > Configuration > General > Locale Options > Locale > Español (Costa Rica)
 
 
 
@@ -79,8 +79,8 @@ Install the Spanish language pack via composer (recommended)
 
 ```
 php bin/magento maintenance:enable
-composer require fasaro/magento2-es_mx-language-pack dev-master
-php bin/magento setup:static-content:deploy es_MX
+composer require fasaro/magento2-es_cr-language-pack dev-master
+php bin/magento setup:static-content:deploy es_CR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -93,8 +93,8 @@ php bin/magento maintenance:disable
 
 ```
 php bin/magento maintenance:enable
-composer update fasaro/magento2-es_mx-language-pack dev-master
-php bin/magento setup:static-content:deploy es_MX
+composer update fasaro/magento2-es_cr-language-pack dev-master
+php bin/magento setup:static-content:deploy es_CR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -104,7 +104,7 @@ php bin/magento maintenance:disable
 **How to Activate Spanish Language Pack**
 
 Now time to active the Spanish language pack for your Magento 2 store. From Magento 2 admin panel, navigate to 
-  →   Stores > Configuration > General > Locale Options > Locale > Español (Mexico)
+  →   Stores > Configuration > General > Locale Options > Locale > Español (Costa Rica)
 
 
 
