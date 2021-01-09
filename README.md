@@ -1,2 +1,4 @@
-# magento2-es_cr-language-pack
-Paquete de idioma español (CR) para Magento 2 | Spanish (Costa Rica) | es_CR
+Support this project
+Support this project, donate as little as $ 20 MXN (a little over 1 USD). Soporta este proyecto, donando tan poco como $ 20 MXN.
+
+
