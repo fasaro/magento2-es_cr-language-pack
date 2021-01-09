@@ -39,7 +39,7 @@ php bin/magento maintenance:disable
 
 ```
 php bin/magento maintenance:enable
-composer update fasaro/magento2-es_mx-language-pack dev-master
+composer update fasaro/magento2-es_cr-language-pack dev-master
 php bin/magento setup:static-content:deploy es_CR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
